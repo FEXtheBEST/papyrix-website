@@ -156,6 +156,10 @@ header.site {
 .card h3 { margin: 10px 0 6px; font-size: 1.08rem; }
 .card p { margin: 0; color: var(--text-soft); font-size: .95rem; }
 
+/* Demo video */
+.demo-video { max-width: 320px; margin: 0 auto; border-radius: 40px; overflow: hidden; box-shadow: var(--shadow); border: 1px solid var(--border); }
+.demo-video video { display: block; width: 100%; height: auto; }
+
 /* Privacy band */
 .privacy-band { text-align: center; }
 .privacy-band .lock { font-size: 2.6rem; }
